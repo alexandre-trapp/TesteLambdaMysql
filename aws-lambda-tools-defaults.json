@@ -18,9 +18,11 @@
     "function-name"         : "TesteLambdaMysql",
     "package-type"          : "Zip",
     "function-role"         : "arn:aws:iam::688842675316:role/lambda-vpc-role",
-    "function-subnets"      : "",
-    "function-security-groups" : "",
+    "function-subnets"      : "subnet-051103b36cd3fd275,subnet-0dbaa25db23b6a4b4,subnet-0d5835d3bc84569bf,subnet-09219b8516cabbf0a,subnet-0e490ee1c42f3ec1c,subnet-096612a5ebc2e8ddc",
+    "function-security-groups" : "sg-08cd0af27108f06f0",
     "tracing-mode"             : "PassThrough",
     "environment-variables"    : "",
-    "image-tag"                : ""
+    "image-tag"                : "",
+    "function-description"     : "",
+    "dead-letter-target-arn"   : "arn:aws:sqs:us-east-1:688842675316:lambdaTesteSQS"
 }
